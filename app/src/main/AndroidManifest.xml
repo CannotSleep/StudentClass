@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feicui.administrator.studentclass">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.MainActivity"
+            android:theme="@style/ToolBarTheme">
+
+        </activity>
+        <activity android:name=".main.BeginActivity"
+            android:theme="@style/ToolBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.LoginActivity"
+            android:theme="@style/ToolBarTheme">
+
+        </activity>
+        <activity android:name=".main.IntroduceActivity"
+            android:theme="@style/ToolBarTheme">
+
+        </activity>
+
+        <!--<activity android:name=".loginDatabaseOperation.ImportDatabase">-->
+
+        <!--</activity>-->
+        <activity android:name=".main.InfoActivity"
+            android:theme="@style/ToolBarTheme">
+
+        </activity>
+        <activity android:name=".main.WebViewActivity"
+            android:theme="@style/ToolBarTheme"
+            >
+
+        </activity>
+        <activity android:name=".main.ChangePassWordActivity"
+            android:theme="@style/ToolBarTheme">
+
+        </activity>
+        <activity android:name=".main.MyClassActivity"
+            android:theme="@style/ToolBarTheme"
+            >
+
+
+        </activity>
+    </application>
+
+</manifest>
